@@ -1,4 +1,4 @@
-COURSE CONTENT:
+COURSE CONTENT (Sem 3 Data Structures and Algorithms curriculm: https://nita.ac.in/BTech_sylabus_ECE2021_ECE10092.pdf):
 Module-1
 Concepts of data Structures- Information & Meaning, Abstract data Types.
 Module-2
