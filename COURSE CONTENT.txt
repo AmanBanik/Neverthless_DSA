@@ -1,0 +1,29 @@
+COURSE CONTENT:
+Module-1
+Concepts of data Structures- Information & Meaning, Abstract data Types.
+Module-2
+Linear Data Structures – Sequential RepresentationsArrays and Lists, Stacks, Queues and
+Dequeues and their Applications; Linked Representations: Linear Linked List, Circular Linked
+List, Doubly Linked List and their Applications.
+Module-3
+Nonlinear Data structures: Trees : Basic Terminologies; Binary trees: Properties, Traversals
+and Threads, Expression.
+Module-4
+Tree, Binary search tree: Operations, Height Balanced Binary trees; M-Way Search Tree, BTrees; Applications. Heaps & Priority Queues.
+Module-5
+Graphs: Graph Terminologies, Representation of graphs, Graph Traversals, Application of
+Graphs. Recursion – Design of Recursive Algorithms, Tail Recursion, When not to use
+recursion, Removal of Recursion.
+Module-6
+Sorting Algorithms: Insertion sorts : Straight insertion sort, Binary insertion of sort, Shell sort;
+Exchange sorts, Bubble sort, Quick sort, selection sorts: Straight Selection Sort, Heap Sort;
+Merge sort; Distribution Sorts : Bucket Sort, Radix Sort
+Module-7
+Searching: Sequential Search, Ordered Sequential Search, Binary Search, Interpolation
+Search.
+Module-8
+Hashing: Hashing Methods, Hash Function Implementations, Hash Tables, Scatter Tables,
+Scatter tables using Open Addressing.
+Module-9
+Programming Experiments based on: Arrays, Stacks, Queues, Linked lists, Trees, Recursion,
+Sorting, searching and Hashing data structures. 
