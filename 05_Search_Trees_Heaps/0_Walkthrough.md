@@ -4,6 +4,17 @@ Standard binary trees are great, but searching them takes $O(N)$. We introduce r
 
 ## 1. Binary Search Tree (BST)
 **Rule:** For every node, all elements in the **Left Subtree** are smaller, and all elements in the **Right Subtree** are larger.
+
+```mermaid
+graph TD
+    50 --> 30
+    50 --> 70
+    30 --> 20
+    30 --> 40
+    70 --> 60
+    70 --> 80
+```
+
 * **Search / Insert / Delete:** $O(\log N)$ on average.
 * **Worst Case:** $O(N)$ if the tree becomes skewed (looks like a Linked List).
 * An **Inorder Traversal** of a BST yields elements in sorted order.
@@ -20,5 +31,14 @@ Binary trees limit a node to 2 children. **M-Way trees** allow a node to have $M
 ## 4. Heaps & Priority Queues
 A **Heap** is a Complete Binary Tree used to implement a Priority Queue.
 * **Max Heap:** Root is the largest element. Every parent is greater than its children.
-* **Min Heap:** Root is the smallest element.
+
+```mermaid
+graph TD
+    100((100)) --> 50((50))
+    100 --> 40((40))
+    50 --> 20((20))
+    50 --> 10((10))
+    40 --> 15((15))
+```
+
 * **Priority Queue:** Elements are dequeued based on priority (value) rather than FIFO order. $O(\log N)$ insertion and extraction.

@@ -18,6 +18,22 @@ Sorting arranges data in a specific order (ascending or descending).
 ## 4. Merge Sort
 Divide and conquer. Divides the array into halves until each has 1 element, then merges them back in sorted order. $O(N \log N)$ guaranteed time, but requires $O(N)$ extra space.
 
+```mermaid
+graph TD
+    A("[38, 27, 43, 3]") --> B("[38, 27]")
+    A --> C("[43, 3]")
+    B --> D("[38]")
+    B --> E("[27]")
+    C --> F("[43]")
+    C --> G("[3]")
+    D -. Merge .-> H("[27, 38]")
+    E -. Merge .-> H
+    F -. Merge .-> I("[3, 43]")
+    G -. Merge .-> I
+    H -. Merge .-> J("[3, 27, 38, 43]")
+    I -. Merge .-> J
+```
+
 ## 5. Distribution Sorts
 * **Bucket Sort:** Distributes elements into "buckets", sorts each bucket individually, and concatenates them. Good for uniformly distributed floating-point numbers.
 * **Radix Sort:** Sorts elements digit by digit, from least significant digit (LSD) to most significant digit (MSD), using counting sort as a subroutine. $O(d \cdot N)$ time.

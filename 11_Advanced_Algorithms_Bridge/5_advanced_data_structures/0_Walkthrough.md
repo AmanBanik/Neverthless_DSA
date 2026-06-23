@@ -6,6 +6,23 @@ Once you've mastered Arrays, Trees, and Hash Maps, you can combine their propert
 A specialized tree used exclusively for strings. 
 * Unlike a BST where each node stores a full string, in a Trie, each node stores a **single character**.
 * The path from the root to a node represents a prefix or a complete word.
+
+```mermaid
+graph TD
+    Root((Root)) --> A((a))
+    Root --> B((b))
+    A --> P((p))
+    P --> P2((p))
+    P2 --> L((l))
+    L --> E((e*))
+    B --> A2((a))
+    A2 --> T((t*))
+    
+    %% Paths form words: "apple", "bat"
+    style E fill:#9f9
+    style T fill:#9f9
+```
+
 * **Why use it?** It is heavily used in **Autocomplete**, **Spell Checkers**, and **IP Routing**. Searching for a string of length $L$ takes exactly $O(L)$ time, regardless of how many millions of words are stored in the Trie!
 
 ## 2. Disjoint Set Union (Union-Find)

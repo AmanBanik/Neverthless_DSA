@@ -12,6 +12,20 @@ Requires the array to be **sorted**.
 * If the target is less than the middle element, it narrows the interval to the lower half. Otherwise, to the upper half.
 * **Time Complexity:** $O(\log N)$. Extremely fast for large datasets.
 
+```text
+Target: 23
+
+[ 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 ]
+  ^            ^                    ^
+ Low          Mid                  High
+ 
+Since 23 > 16 (Mid), new Low becomes Mid + 1:
+
+[ 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 ]
+                    ^       ^       ^
+                   Low     Mid     High
+```
+
 ## 3. Interpolation Search
 An improvement over Binary Search for instances where the values in a sorted array are **uniformly distributed**.
 * Instead of always picking the middle element, it tries to estimate the position based on the value of the target.

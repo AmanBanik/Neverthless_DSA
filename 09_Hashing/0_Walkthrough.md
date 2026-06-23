@@ -23,3 +23,11 @@ If a collision occurs, find another open slot in the table.
 
 ### Chaining (Open Hashing)
 Each slot in the array is a pointer to a **Linked List**. If a collision occurs, simply append the new element to the linked list at that index. No probing is needed, but it requires extra memory for pointers.
+
+```text
+Hash Table Array
+[ 0 ] -> NULL
+[ 1 ] -> [ Key: 15 ] -> [ Key: 22 ] -> NULL   <-- Collision resolved via chaining
+[ 2 ] -> [ Key: 9 ] -> NULL
+[ 3 ] -> NULL
+```

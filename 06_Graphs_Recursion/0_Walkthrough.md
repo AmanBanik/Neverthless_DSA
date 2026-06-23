@@ -4,6 +4,15 @@
 
 A Graph $G = (V, E)$ consists of a set of Vertices (nodes) and Edges (connections).
 
+```mermaid
+graph LR
+    0((0)) --- 1((1))
+    0 --- 2((2))
+    1 --- 3((3))
+    2 --- 3
+    3 --- 4((4))
+```
+
 ### Terminologies
 * **Directed Graph:** Edges have a direction (A $\rightarrow$ B).
 * **Undirected Graph:** Edges are bidirectional (A $-$ B).
